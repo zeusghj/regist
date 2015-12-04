@@ -1,0 +1,1 @@
+在数据表中执行如下SQL语句创建相应字段存放用户数据：CREATE TABLE IF NOT EXISTS `deng` (  `nicheng` varchar(8) NOT NULL COMMENT '用户昵称',  `users` varchar(30) NOT NULL COMMENT '用户邮箱',  `pass` varchar(30) NOT NULL COMMENT '用户密码',  PRIMARY KEY (`nicheng`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
